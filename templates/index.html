@@ -1,0 +1,113 @@
+{% extends "base.html" %}
+{% import "macros.html" as m %}
+
+{% block content %}
+<!-- Contact -->
+<div id="contact">
+<div class="portrait" style="background-image: url('/img/headshot.jpg');">
+</div>
+
+<div class="portrait-title">
+<h3>PhD Student</h3>
+
+<h3>
+<a href="https://cornell.edu" target="_blank" itemprop="url" rel="noopener">
+    <span itemprop="name">University of British Columbia</span>
+</a>
+</h3>
+</div>
+
+<div class="contact-links">
+    {{ m::contact(link="mailto:joey[atsymbol]eremondi.com", classes="fa fa-envelope") }}
+    {{ m::contact(link="//twitter.com/EremondiJoey", classes="fab fa-twitter") }}
+    {{ m::contact(link="//github.com/JoeyEremondi", classes="fab fa-github") }}
+    {{ m::contact(link="//scholar.google.ca/citations?user=dO1wEV0AAAAJ&hl=en", classes="ai ai-google-scholar") }}
+</div>
+</div>
+
+<!-- Bio -->
+<section>
+<div class="bio">
+{% set page = get_page(path="about/about.md") %}
+{{ page.content | safe }}
+</div>
+
+<!-- News -->
+{{ m::anchor_heading(content="News") }}
+{% set news = get_section(path="news/_index.md") %}
+{% set items = config.extra.news_items %}
+{% for post in news.pages | sort(attribute="date") | reverse | slice(end=items) %}
+{{ m::generate_news(post=post) }}
+{% endfor %}
+<div class="more">
+<a href="/news">
+  All News
+  <i class="fa fa-angle-double-right"></i>
+</a>
+</div>
+</section>
+
+<!-- Publications -->
+<section>
+{{ m::anchor_heading(content="Publications") }}
+{% set news = get_section(path="publication/_index.md") %}
+{% set items = config.extra.news_items %}
+{% for pub in news.pages | sort(attribute="date") | reverse %}
+<div class="publication">
+  <div class="publication-venue">
+    {{- pub.extra.publication_short -}}
+    &nbsp;
+    {{ pub.date | date(format="%Y") }}
+  </div>
+  <div class="publication-details">
+    <div class="publication-title">
+    {% if pub.extra.pdf %}
+    <a href={{ pub.extra.pdf }}>
+    {% endif %}
+    {{ pub.title | safe }}
+    {% if pub.extra.pdf %}
+    </a>
+    {% endif %}
+    </div>
+    <div class="publication-authors">
+    {% for name in pub.extra.authors %}
+    {{ m::author(name=name) }}{% if not loop.last %}, {% endif %}
+    {% endfor %}
+    </div>
+    <div class="publication-links">
+    {% for link in pub.extra.urls %}
+      <span class="publication-link">
+      <a class="unstyled-link" href="{{ link.url }}">
+      [&nbsp;{{ link.name }}&nbsp;]
+      </a>
+      </span>
+    {% endfor %}
+    </div>
+  </div>
+</div>
+{% endfor %}
+</section>
+
+<!-- Blog Posts -->
+<section>
+<h2 id="posts">Posts
+<sup>
+<a class="unstyled-link" href="{{ get_url(path="post/atom.xml") }}">
+  <i class="fas fa-rss"></i>
+</a>
+</sup>
+</h2>
+{% set news = get_section(path="post/_index.md") %}
+{% set items = config.extra.news_items %}
+{% for post in news.pages | sort(attribute="date") | reverse | slice(end=items) %}
+{{ m::generate_post(post=post) }}
+{% endfor %}
+<div class="more">
+<a href="/post">
+  All Posts
+  <i class="fa fa-angle-double-right"></i>
+</a>
+</div>
+</section>
+
+{% endblock content %}
