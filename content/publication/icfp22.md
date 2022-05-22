@@ -1,18 +1,17 @@
 +++
 title = "Propositional Equality for Gradual Dependently Typed Programming"
 author = ["Joey Eremondi"]
-date = 2019-06-01T00:00:00-06:00
+date = 2022-05-21T00:00:00-06:00
 draft = false
 [extra]
-authors = ["Joseph Eremondi"]
+authors = ["Joseph Eremondi", "Ron Garcia", "Éric Tanter"]
 
-publication = "Trends in Functional Programming"
-publication_short = "TFP"
+publication = "International Conference on Functional Programming (to appear)"
+publication_short = "ICFP"
 
 
-pdf = "https://link.springer.com/chapter/10.1007/978-3-030-47147-7_6"
+pdf = "https://arxiv.org/abs/2205.01241"
 urls = [
- {name = "Code", url = "https://github.com/JoeyEremondi/elm-compiler-patmatch-smt" },
- {name = "ArXiV", url = "https://arxiv.org/abs/1905.09423"}
+ {name = "ArXiV", url = "https://arxiv.org/abs/2205.01241"}
 ]
 +++

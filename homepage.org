@@ -98,15 +98,16 @@ I have successfully defended my thesis proposal: I am officially a PhD Candidate
 :EXPORT_HUGO_SECTION: publication
 :END:
 
+
 ** ICFP22
 :PROPERTIES:
 :EXPORT_FILE_NAME: icfp22
 :EXPORT_TITLE: Propositional Equality for Gradual Dependently Typed Programming
-:EXPORT_DATE:<2022-05-22 Sun>
+:EXPORT_DATE: <2022-05-21>
 :END:
 #+begin_src toml :front_matter_extra t
 [extra]
-authors = ["Joseph Eremondi",  "Ron Garcia", "Éric Tanter"]
+authors = ["Joseph Eremondi", "Ron Garcia", "Éric Tanter"]
 
 publication = "International Conference on Functional Programming (to appear)"
 publication_short = "ICFP"

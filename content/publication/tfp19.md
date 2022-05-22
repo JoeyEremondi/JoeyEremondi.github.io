@@ -1,7 +1,7 @@
 +++
 title = "Set Constraints, Pattern Match Analysis and SMT"
 author = ["Joey Eremondi"]
-date = 2019-06-01T00:00:00-07:00
+date = 2019-06-01T00:00:00-06:00
 draft = false
 [extra]
 authors = ["Joseph Eremondi"]
