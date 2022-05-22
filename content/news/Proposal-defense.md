@@ -1,7 +1,7 @@
 +++
-title = "Defended Proposal"
+title = "New Paper: Propositional Equality for Gradual Dependently Typed Programming"
 author = ["Joey Eremondi"]
-date = 2021-03-17T00:00:00-07:00
+date = 2021-03-17T00:00:00-06:00
 draft = false
 +++
 

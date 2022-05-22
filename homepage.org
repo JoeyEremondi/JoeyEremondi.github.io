@@ -93,6 +93,15 @@ I have successfully defended my thesis proposal: I am officially a PhD Candidate
 
 
 
+** New Paper: Propositional Equality for Gradual Dependently Typed Programming
+:PROPERTIES:
+:EXPORT_DATE: <2022-05-21>
+:EXPORT_FILE_NAME: icfp22-accepted
+:END:
+New paper :
+[[https://arxiv.org/abs/2205.01241][Propositional Equality for Gradual Dependently Typed Programming]] accepted to ICFP 2022
+
+
 * publications
 :PROPERTIES:
 :EXPORT_HUGO_SECTION: publication
