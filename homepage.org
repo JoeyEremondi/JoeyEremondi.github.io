@@ -9,7 +9,7 @@
 :EXPORT_DATE: <2021-08-03 Tue>
 :EXPORT_FILE_NAME: about
 :END:
-I'm Joseph (Joey) Eremondi, a PhD student working with
+I'm Joseph (Joey) Eremondi, a PhD candidate working with
 [[https://www.cs.ubc.ca/~rxg/][Ron Garcia]] at the
 [[https://spl.cs.ubc.ca/][UBC Software Practices Laboratory]].
 
@@ -18,9 +18,10 @@ reliable, and in the theory and practice of making such systems easier
 to use. In particular, I'm interested in mixing dependent types with
 gradual types and improving error messages for dependently-typed
 languages. I've also researched the properties of reversal-bounded
-counter automata, and the shuffle operator on words.
+counter automata, set constraints, and the shuffle operator on words.
 
-
+In 2023, I will begin a postdoctoral fellowship, working with [[https://www.inf.ed.ac.uk/people/staff/Ohad_Kammar.html][Ohad Kammar]] in the [[https://web.inf.ed.ac.uk/lfcs][Laboratory for Foundations of Computer Science]]
+at the University of Edinburgh.
 * blog
 :PROPERTIES:
 :EXPORT_HUGO_SECTION: post
@@ -102,6 +103,17 @@ New paper :
 [[https://arxiv.org/abs/2205.01241][Propositional Equality for Gradual Dependently Typed Programming]] accepted to ICFP 2022
 
 
+
+
+** Award: Newton International Fellowship
+:PROPERTIES:
+:EXPORT_DATE: <2022-10-16>
+:EXPORT_FILE_NAME: newton-award
+:END:
+I was awarded the Royal Society Newton International Fellowship. In 2023, I will begin a postdoc in Edinburgh with Ohad Kammar,
+researching improved semantics for dependent pattern matching
+
+
 * publications
 :PROPERTIES:
 :EXPORT_HUGO_SECTION: publication
@@ -118,13 +130,14 @@ New paper :
 [extra]
 authors = ["Joseph Eremondi", "Ron Garcia", "Éric Tanter"]
 
-publication = "International Conference on Functional Programming (to appear)"
+publication = "International Conference on Functional Programming "
 publication_short = "ICFP"
 
 
-pdf = "https://arxiv.org/abs/2205.01241"
+pdf = "https://dl.acm.org/doi/10.1145/3547627"
 urls = [
- {name = "ArXiV", url = "https://arxiv.org/abs/2205.01241"}
+ {name = "ArXiV", url = "https://arxiv.org/abs/2205.01241"},
+ {name = "Video", url = "https://www.youtube.com/watch?v=-wTfXsuNwrA&t=1s"}
 ]
 #+end_src
 ** TFP19
