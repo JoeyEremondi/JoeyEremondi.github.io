@@ -1,4 +1,4 @@
-#+hugo_base_dir: /home/joey/gh/eremondi.com-Test/
+#+hugo_base_dir: /home/joey/homepage/
 
 * About
 :PROPERTIES:
@@ -9,7 +9,13 @@
 :EXPORT_DATE: <2021-08-03 Tue>
 :EXPORT_FILE_NAME: about
 :END:
-I'm Joseph (Joey) Eremondi, a PhD candidate working with
+I'm Joseph (Joey) Eremondi, a
+Royal Society Newton International Fellow
+doing post-doctoral research with
+with [[https://www.inf.ed.ac.uk/people/staff/Ohad_Kammar.html][Ohad Kammar]] in the [[https://web.inf.ed.ac.uk/lfcs][Laboratory for Foundations of Computer Science]]
+at the University of Edinburgh.
+
+Previously, I completed my PhD with
 [[https://www.cs.ubc.ca/~rxg/][Ron Garcia]] at the
 [[https://spl.cs.ubc.ca/][UBC Software Practices Laboratory]].
 
@@ -20,8 +26,6 @@ gradual types and improving error messages for dependently-typed
 languages. I've also researched the properties of reversal-bounded
 counter automata, set constraints, and the shuffle operator on words.
 
-In 2023, I will begin a postdoctoral fellowship, working with [[https://www.inf.ed.ac.uk/people/staff/Ohad_Kammar.html][Ohad Kammar]] in the [[https://web.inf.ed.ac.uk/lfcs][Laboratory for Foundations of Computer Science]]
-at the University of Edinburgh.
 * blog
 :PROPERTIES:
 :EXPORT_HUGO_SECTION: post
@@ -113,6 +117,20 @@ New paper :
 I was awarded the Royal Society Newton International Fellowship. In 2023, I will begin a postdoc in Edinburgh with Ohad Kammar,
 researching improved semantics for dependent pattern matching
 
+** Passed Doctoral Defence
+:PROPERTIES:
+:EXPORT_DATE: <2023-03-06>
+:EXPORT_FILE_NAME: defence-passed1
+:END:
+On March 6, 2023 I successfully defended my dissertation "On The Design of a Gradual Dependently Typed Language for Programming".
+The final dissertation will be available soon, pending minor revisions suggested by the examining committee.
+
+** Dissertation Available
+:PROPERTIES:
+:EXPORT_DATE: <2023-04-01>
+:EXPORT_FILE_NAME: diss-online
+:END:
+The final version of my dissertation can be read [[https://dx.doi.org/10.14288/1.0428823][here]].
 
 * publications
 :PROPERTIES:
