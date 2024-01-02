@@ -5,13 +5,16 @@ date = 2021-08-03T00:00:00-06:00
 draft = false
 +++
 
-I'm Joseph (Joey) Eremondi, a
+I'm Joseph (Joey) Eremondi, an
+Assistant Professor in [Computer Science](https://www.uregina.ca/science/cs/)
+at the [University of Regina](https://www.uregina.ca/).
+
+Previously, I was
 Royal Society Newton International Fellow
 doing post-doctoral research with
 with [Ohad Kammar](https://www.inf.ed.ac.uk/people/staff/Ohad_Kammar.html) in the [Laboratory for Foundations of Computer Science](https://web.inf.ed.ac.uk/lfcs)
 at the University of Edinburgh.
-
-Previously, I completed my PhD with
+I completed my PhD with
 [Ron Garcia](https://www.cs.ubc.ca/~rxg/) at the
 [UBC Software Practices Laboratory](https://spl.cs.ubc.ca/).
 
