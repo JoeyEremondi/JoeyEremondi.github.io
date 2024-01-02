@@ -10,7 +10,7 @@ publication = "Certified Proofs and Programming"
 publication_short = "CPP"
 
 
-pdf =  "https://arxiv.org/abs/2312.06962"
+pdf =  "https://popl24.sigplan.org/details/CPP-2024-papers/9/Strictly-Monotone-Brouwer-Trees-for-Well-Founded-Recursion-Over-Multiple-Arguments"
 urls = [
  {name = "ArXiV", url = "https://arxiv.org/abs/2312.06962"},
 ]
