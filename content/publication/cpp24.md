@@ -13,5 +13,6 @@ publication_short = "CPP"
 pdf =  "https://popl24.sigplan.org/details/CPP-2024-papers/9/Strictly-Monotone-Brouwer-Trees-for-Well-Founded-Recursion-Over-Multiple-Arguments"
 urls = [
  {name = "ArXiV", url = "https://arxiv.org/abs/2312.06962"},
+ {name = "Code", url = "https://zenodo.org/doi/10.5281/zenodo.10204397"},
 ]
 +++
