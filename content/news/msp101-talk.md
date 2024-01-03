@@ -1,7 +1,7 @@
 +++
 title = "MSP101 Talk"
 author = ["Joey Eremondi"]
-date = 2023-12-06T00:00:00+01:00
+date = 2023-06-30T00:00:00+01:00
 draft = false
 +++
 
