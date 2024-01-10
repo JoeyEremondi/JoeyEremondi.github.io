@@ -1,7 +1,7 @@
 +++
 title = "UBC Beamer Theme"
 author = ["Joey Eremondi"]
-date = 2017-12-28T00:00:00-08:00
+date = 2017-12-28T00:00:00-06:00
 draft = false
 +++
 

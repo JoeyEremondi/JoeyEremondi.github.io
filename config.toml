@@ -20,6 +20,7 @@ skip_prefixes = [
 
 [extra]
 news_items = 5
+teaching_items = 10
 
 # Links to author webpages
 author = [

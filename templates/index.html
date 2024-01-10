@@ -49,6 +49,22 @@
 </div>
 </section>
 
+
+<!-- Teaching -->
+{{ m::anchor_heading(content="Teaching") }}
+{% set teaching = get_section(path="teaching/_index.md") %}
+{% set items = config.extra.teaching_items %}
+{% for post in teaching.pages | sort(attribute="date") | reverse | slice(end=items) %}
+{{ m::generate_teaching(post=post) }}
+{% endfor %}
+<div class="more">
+<a href="/teaching">
+  Older Classes
+  <i class="fa fa-angle-double-right"></i>
+</a>
+</div>
+</section>
+
 <!-- Publications -->
 <section>
 {{ m::anchor_heading(content="Publications") }}
@@ -89,6 +105,9 @@
 </div>
 {% endfor %}
 </section>
+
+
+
 
 <!-- Blog Posts -->
 <section>

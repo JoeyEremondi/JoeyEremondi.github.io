@@ -1,7 +1,7 @@
 +++
 title = "McCarthy Award"
 author = ["Joey Eremondi"]
-date = 2020-02-17T00:00:00-08:00
+date = 2020-02-17T00:00:00-06:00
 draft = false
 +++
 

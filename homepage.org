@@ -9,27 +9,66 @@
 :EXPORT_DATE: <2021-08-03 Tue>
 :EXPORT_FILE_NAME: about
 :END:
-I'm Joseph (Joey) Eremondi, a
-Royal Society Newton International Fellow
-doing post-doctoral research with
-with [[https://www.inf.ed.ac.uk/people/staff/Ohad_Kammar.html][Ohad Kammar]] in the [[https://web.inf.ed.ac.uk/lfcs][Laboratory for Foundations of Computer Science]]
-at the University of Edinburgh.
 
-Previously, I completed my PhD with
-[[https://www.cs.ubc.ca/~rxg/][Ron Garcia]] at the
-[[https://spl.cs.ubc.ca/][UBC Software Practices Laboratory]].
+*Prospective Graduate Students*: I'm currently recruiting new Masters or Doctoral
+students.
+See [[/post/recruiting-grad-2024][this post]] if you're interested in working on programming languages theory with me.
+
+--------------------------------
+
+I'm Joseph (Joey) Eremondi, an Assistant Professor in
+[[https://www.uregina.ca/science/cs/][Computer Science]] at the
+[[https://www.uregina.ca/][University of Regina]].
 
 My research is centred around type systems for making code more
 reliable, and in the theory and practice of making such systems easier
-to use. In particular, I'm interested in mixing dependent types with
-gradual types and improving error messages for dependently-typed
+to use. In particular, I'm interested in developing semantics to
+increase the flexibility of dependent pattern matching,
+mixing dependent types with
+gradual types, and improving error messages for dependently-typed
 languages. I've also researched the properties of reversal-bounded
-counter automata, set constraints, and the shuffle operator on words.
+counter automata, set constraints, and the shuffle operator on words
+
+Previously, I was Royal Society Newton International Fellow doing
+post-doctoral research with with
+[[https://www.inf.ed.ac.uk/people/staff/Ohad_Kammar.html][Ohad Kammar]]
+in the [[https://web.inf.ed.ac.uk/lfcs][Laboratory for Foundations of
+Computer Science]] at the University of Edinburgh. I completed my PhD
+with [[https://www.cs.ubc.ca/~rxg/][Ron Garcia]] at the
+[[https://spl.cs.ubc.ca/][UBC Software Practices Laboratory]].
+
+
 
 * blog
 :PROPERTIES:
 :EXPORT_HUGO_SECTION: post
 :END:
+** Recruiting Grad Students
+:PROPERTIES:
+:EXPORT_DATE: <2024-01-02>
+:EXPORT_FILE_NAME: recruiting-grad-2024
+:END:
+I am a newly-hired Assistant Professor, recruiting Masters and Doctoral students to research programming languages theory with me at the University of Regina in Canada. Specific areas of interest include:
+
+- Programming with dependently typed languages, like Lean, Agda, Idris, and Coq
+- Improving usability of dependently typed programming languages
+- Gradual types and gradual dependent types
+- Live programming environments for dependent types
+- Static analysis of dependently typed programs
+- Ordinal notations and termination proofs
+- Error messages and repair suggestions for static and dynamic type errors
+- Dependent pattern matching - semantics and implementation
+
+Graduate students at the U of R have the opportunity to be part of a small, focused research group where you can work closely with your advisor. Regina is one of Canada’s most affordable cities to live in, and students have access to Canada’s universal health care. Students are funded by stipend, and have the opportunity to gain experience as a Teaching Assistant or Sessional Lecturer.
+
+Application deadlines are listed below, but out-of-cycle applications are possible for strong students.
+
+- Feb 15 2024 (to begin September 2024)
+- June 15 2024 (to begin January 2025)
+- October 15 2024 (to begin May 2025)
+
+For more information on applying, visit https://www.uregina.ca/science/cs/graduate/future-grad/index.html. Any questions for me specifically can be directed to me by [[mailto:jeremondi(atsymbol)uregina.ca][email]].
+
 ** UBC Beamer Theme
 :PROPERTIES:
 :EXPORT_DATE: <2017-12-28>
@@ -114,23 +153,43 @@ New paper :
 :EXPORT_DATE: <2022-10-16>
 :EXPORT_FILE_NAME: newton-award
 :END:
-I was awarded the Royal Society Newton International Fellowship. In 2023, I will begin a postdoc in Edinburgh with Ohad Kammar,
+Awarded the Royal Society Newton International Fellowship with Ohad Kammar,
 researching improved semantics for dependent pattern matching
-
-** Passed Doctoral Defence
-:PROPERTIES:
-:EXPORT_DATE: <2023-03-06>
-:EXPORT_FILE_NAME: defence-passed1
-:END:
-On March 6, 2023 I successfully defended my dissertation "On The Design of a Gradual Dependently Typed Language for Programming".
-The final dissertation will be available soon, pending minor revisions suggested by the examining committee.
 
 ** Dissertation Available
 :PROPERTIES:
 :EXPORT_DATE: <2023-04-01>
 :EXPORT_FILE_NAME: diss-online
 :END:
-The final version of my dissertation can be read [[https://dx.doi.org/10.14288/1.0428823][here]].
+Successfully defended PhD thesis  "On The Design of a Gradual Dependently Typed Language for Programming". The final version of my dissertation can be read [[https://dx.doi.org/10.14288/1.0428823][here]].
+** MSP101 Talk
+:PROPERTIES:
+:EXPORT_DATE: <2023-06-30>
+:EXPORT_FILE_NAME: msp101-talk
+:END:
+Gave a talk at the University of Strathclyde MSP101 Seminar Series about gradual dependent types, [[https://www.youtube.com/watch?time_continue=1&v=0d8DlrgL814&source_ve_path=Mjg2NjY&feature=emb_logo][video here]]
+** SPLS Talk
+:PROPERTIES:
+:EXPORT_DATE: <2023-12-06>
+:EXPORT_FILE_NAME: spls23-talk
+:END:
+Gave a talk at the Scottish Programming Languages Seminar about my postdoc research on pattern matching, [[https://www.youtube.com/watch?v=t-9coCh3mOE][video here]]
+** Start at Regina
+:PROPERTIES:
+:EXPORT_DATE: <2024-01-02>
+:EXPORT_FILE_NAME: regina-start
+:END:
+Started as Assistant Professor at University of Regina.
+* Teaching
+:PROPERTIES:
+:EXPORT_HUGO_SECTION: teaching
+:END:
+** CS350 2024
+:PROPERTIES:
+:EXPORT_DATE: <2024-07-01>
+:EXPORT_FILE_NAME: cs350-2024
+:END:
+CS 350: Programming Language Concepts
 
 * publications
 :PROPERTIES:
@@ -138,6 +197,26 @@ The final version of my dissertation can be read [[https://dx.doi.org/10.14288/1
 :END:
 
 
+** CPP24
+:PROPERTIES:
+:EXPORT_FILE_NAME: cpp24
+:EXPORT_TITLE: Stricty Monotone Brouwer Trees for Well-Founded Recursion Over Multiple Arguments
+:EXPORT_DATE: <2024-01-10>
+:END:
+#+begin_src toml :front_matter_extra t
+[extra]
+authors = ["Joseph Eremondi"]
+
+publication = "Certified Programs and Proofs"
+publication_short = "CPP"
+
+
+pdf = "https://doi.org/10.1145/3636501.3636948"
+urls = [
+ {name = "ArXiV", url = "https://arxiv.org/abs/2312.06962"},
+ {name = "Code", url = "https://zenodo.org/doi/10.5281/zenodo.10204397"}
+]
+#+end_src
 ** ICFP22
 :PROPERTIES:
 :EXPORT_FILE_NAME: icfp22
@@ -328,6 +407,32 @@ urls = [
 ]
 #+end_src
 
+* publications
+:PROPERTIES:
+:EXPORT_HUGO_SECTION: publication
+:END:
+
+
+** SPLS 23
+:PROPERTIES:
+:EXPORT_FILE_NAME: cpp24
+:EXPORT_TITLE: Stricty Monotone Brouwer Trees for Well-Founded Recursion Over Multiple Arguments
+:EXPORT_DATE: <2024-01-10>
+:END:
+#+begin_src toml :front_matter_extra t
+[extra]
+authors = ["Joseph Eremondi"]
+
+publication = "Scottish Programming Languages Symposium"
+publication_short = "SPLS"
+
+
+pdf = "https://doi.org/10.1145/3636501.3636948"
+urls = [
+ {name = "ArXiV", url = "https://arxiv.org/abs/2312.06962"},
+ {name = "Code", url = "https://zenodo.org/doi/10.5281/zenodo.10204397"}
+]
+#+end_src
 * Footnotes
 * COMMENT Local Variables                          :ARCHIVE:
 # Local Variables:

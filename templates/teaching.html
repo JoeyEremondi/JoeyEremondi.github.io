@@ -1,0 +1,15 @@
+
+{% extends "base.html" %}
+{% import "macros.html" as m %}
+
+{% block content %}
+<h2>Teaching</h2>
+<section>
+{% set teaching = get_section(path="teaching/_index.md") %}
+{% set items = config.extra.teaching_items %}
+{% for post in teaching.pages | sort(attribute="date") | reverse %}
+{{ m::generate_teaching(post=post) }}
+{% endfor %}
+</section>
+
+{% endblock content %}

@@ -1,7 +1,7 @@
 +++
 title = "New Paper: Approximate Normalization for Gradual Dependent Types"
 author = ["Joey Eremondi"]
-date = 2019-07-26T00:00:00-07:00
+date = 2019-07-26T00:00:00-06:00
 draft = false
 +++
 

@@ -74,3 +74,14 @@
  </div>
 </div>
 {% endmacro post %}
+
+
+{# Styling for News items #}
+{% macro generate_teaching(post) %}
+<div class="blurb">
+  <div class="date">{{ post.date | date(format="%b '%y") }}</div>
+  <div class="description">
+    {{ post.content | safe }}
+ </div>
+</div>
+{% endmacro post %}
