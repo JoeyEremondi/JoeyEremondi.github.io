@@ -407,30 +407,104 @@ urls = [
 ]
 #+end_src
 
-* publications
+* talks
 :PROPERTIES:
-:EXPORT_HUGO_SECTION: publication
+:EXPORT_HUGO_SECTION: talk
 :END:
 
-
-** SPLS 23
+** ICFP19
 :PROPERTIES:
-:EXPORT_FILE_NAME: cpp24
-:EXPORT_TITLE: Stricty Monotone Brouwer Trees for Well-Founded Recursion Over Multiple Arguments
-:EXPORT_DATE: <2024-01-10>
+:EXPORT_FILE_NAME: icfp19
+:EXPORT_TITLE: Approximate Normalization for Gradual Dependent Types
+:EXPORT_DATE: <2019-09-01>
 :END:
 #+begin_src toml :front_matter_extra t
 [extra]
-authors = ["Joseph Eremondi"]
+
+publication = "International Conference on Functional Programming"
+publication_short = "ICFP"
+
+
+url ="https://www.youtube.com/watch?v=e4FeQCabuOQ"
+urls = [
+ {name = "Slides (odp)", url = "/slides/icfp19.odp"},
+ {name = "Slides (pdf)", url = "/slides/icfp19.pdf"},
+]
+#+end_src
+
+** ICFP22
+:PROPERTIES:
+:EXPORT_FILE_NAME: icfp22
+:EXPORT_TITLE: Propositional Equality for Gradual Dependently Typed Programming
+:EXPORT_DATE: <2022-09-01>
+:END:
+#+begin_src toml :front_matter_extra t
+[extra]
+
+publication = "International Conference on Functional Programming"
+publication_short = "ICFP"
+
+
+url = "https://www.youtube.com/watch?v=-wTfXsuNwrA&t"
+urls = [
+ {name = "Slides", url = "/slides/icfp22.pptx"},
+]
+#+end_src
+
+** MSP101 Gradual Types
+:PROPERTIES:
+:EXPORT_FILE_NAME: msp101_23
+:EXPORT_TITLE: On The Design of a Gradual Dependently Typed Language for Programming
+:EXPORT_DATE: <2023-06-01>
+:END:
+#+begin_src toml :front_matter_extra t
+[extra]
+
+publication = "Mathematically Structured Programming 101 (Seminar Series)"
+publication_short = "MSP101"
+
+
+url = "https://www.youtube.com/watch?v=0d8DlrgL814"
+urls = [
+ {name = "Slides", url = "/slides/msp101_jun2023.pptx"},
+]
+#+end_src
+
+
+** WITS 2023
+:PROPERTIES:
+:EXPORT_FILE_NAME: wits23
+:EXPORT_TITLE: An Implementation Strategy for Gradual Dependent Types
+:EXPORT_DATE: <2023-09-01>
+:END:
+#+begin_src toml :front_matter_extra t
+[extra]
+
+publication = "Workshop on Implementing Type Systems"
+publication_short = "WITS"
+
+
+url = "/slides/wits_aug2023.pptx"
+urls = [
+]
+#+end_src
+
+** SPLS 23
+:PROPERTIES:
+:EXPORT_FILE_NAME: spls23
+:EXPORT_TITLE: Coverage Semantics for Dependent Pattern Matching
+:EXPORT_DATE: <2023-12-01>
+:END:
+#+begin_src toml :front_matter_extra t
+[extra]
 
 publication = "Scottish Programming Languages Symposium"
 publication_short = "SPLS"
 
 
-pdf = "https://doi.org/10.1145/3636501.3636948"
+url = "https://www.youtube.com/watch?v=t-9coCh3mOE"
 urls = [
- {name = "ArXiV", url = "https://arxiv.org/abs/2312.06962"},
- {name = "Code", url = "https://zenodo.org/doi/10.5281/zenodo.10204397"}
+ {name = "Slides", url = "/slides/spls_nov23.pptx"},
 ]
 #+end_src
 * Footnotes

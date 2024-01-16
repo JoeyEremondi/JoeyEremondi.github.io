@@ -11,8 +11,8 @@
 <h3>Assistant Professor</h3>
 
 <h3>
-<a href="https://cornell.edu" target="_blank" itemprop="url" rel="noopener">
-    <span itemprop="name">University of Regina</span>
+<a href="https://www.cs.uregina.ca" target="_blank" itemprop="url" rel="noopener">
+    <span itemprop="name">University of Regina, Saskatchewan, Canada</span>
 </a>
 </h3>
 </div>
@@ -107,6 +107,41 @@
 </section>
 
 
+<!-- Publications -->
+<section>
+{{ m::anchor_heading(content="Talks") }}
+{% set news = get_section(path="talk/_index.md") %}
+{% set items = config.extra.news_items %}
+{% for talk in news.pages | sort(attribute="date") | reverse %}
+<div class="publication">
+  <div class="publication-venue">
+    {{- talk.extra.publication_short -}}
+    &nbsp;
+    {{ talk.date | date(format="%Y") }}
+  </div>
+  <div class="publication-details">
+    <div class="publication-title">
+    {% if talk.extra.url %}
+    <a href={{ talk.extra.url }}>
+    {% endif %}
+    {{ talk.title | safe }}
+    {% if talk.extra.url %}
+    </a>
+    {% endif %}
+    </div>
+    <div class="publication-links">
+    {% for link in talk.extra.urls %}
+      <span class="publication-link">
+      <a class="unstyled-link" href="{{ link.url }}">
+      [&nbsp;{{ link.name }}&nbsp;]
+      </a>
+      </span>
+    {% endfor %}
+    </div>
+  </div>
+</div>
+{% endfor %}
+</section>
 
 
 <!-- Blog Posts -->
