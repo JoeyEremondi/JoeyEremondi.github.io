@@ -1,3 +1,13 @@
+# Takes a repository with Zola source, generates the static site and
+# pushes the result to the pages branch of the same repository
+#
+# Must be set in Woodpecker configuration:
+# mail: Your email address used by Codeberg
+# codeberg_token: Codeberg access token with "write:repository" permission
+#
+# .domains file can be put inside static folder in Zola source
+#
+
 # Exclude the pipeline to run on the pages branch
 when:
   branch:
@@ -23,16 +33,17 @@ steps:
   publish:
     image: bitnami/git
     environment:
-      CBMAIL:
-        from_secret: "mail"
-      CBTOKEN:
-        from_secret: "codeberg_token"
+      # secrets must be set in Woodpecker configuration
+      TOKEN:
+        from_secret: cbtoken
+      MAIL:
+        from_secret: cbmail
     commands:
       # Configure Git
-      - git config --global user.email "$${CBMAIL}"
+      - git config --global user.email $MAIL
       - git config --global user.name "Woodpecker CI"
       # Clone the output branch
-      - git clone --branch pages https://$${CBTOKEN}@codeberg.org/$CI_REPO.git $CI_REPO_NAME
+      - git clone --branch pages https://$TOKEN@codeberg.org/$CI_REPO.git $CI_REPO_NAME
       # Enter the output branch
       - cd $CI_REPO_NAME
       # Remove old files
