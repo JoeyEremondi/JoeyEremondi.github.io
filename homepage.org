@@ -203,6 +203,26 @@ CS 350: Programming Language Concepts
 :END:
 
 
+** ESOP25
+:PROPERTIES:
+:EXPORT_FILE_NAME: esop25
+:EXPORT_TITLE: Coverage Semantics for Dependent Pattern Matching
+:EXPORT_DATE: <2025-02-18>
+:END:
+#+begin_src toml :front_matter_extra t
+[extra]
+authors = ["Joseph Eremondi", "Ohad Kammar"]
+
+publication = "European Symposium on Programming"
+publication_short = "ESOP"
+
+
+pdf =  "https://arxiv.org/abs/2501.18087"
+urls = [
+ {name = "ArXiV", url = "https://arxiv.org/abs/2501.18087"},
+ {name = "Code", url = "https://doi.org/10.5281/zenodo.14768608"}
+]
+#+end_src
 ** CPP24
 :PROPERTIES:
 :EXPORT_FILE_NAME: cpp24
