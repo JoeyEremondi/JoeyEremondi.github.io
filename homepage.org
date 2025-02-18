@@ -1,4 +1,4 @@
-#+hugo_base_dir: /home/joey/homepage/
+#+hugo_base_dir: ~/joey/homepage/
 
 * About
 :PROPERTIES:
@@ -180,6 +180,12 @@ Gave a talk at the Scottish Programming Languages Seminar about my postdoc resea
 :EXPORT_FILE_NAME: regina-start
 :END:
 Started as Assistant Professor at University of Regina.
+** New Paper: Coverage Semantics for Dependent Pattern Matching
+:PROPERTIES:
+:EXPORT_DATE: <2025-02-18>
+:EXPORT_FILE_NAME: esop25-accepted
+:END:
+New paper : [[https://arxiv.org/abs/2501.18087][Coverage Semantics for Dependent Pattern Matching]]
 * Teaching
 :PROPERTIES:
 :EXPORT_HUGO_SECTION: teaching
