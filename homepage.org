@@ -45,8 +45,8 @@ with [[https://www.cs.ubc.ca/~rxg/][Ron Garcia]] at the
 :END:
 ** Recruiting Grad Students
 :PROPERTIES:
-:EXPORT_DATE: <2024-01-02>
-:EXPORT_FILE_NAME: recruiting-grad-2024
+:EXPORT_DATE:<2025-04-01 Tue>
+:EXPORT_FILE_NAME: recruiting-grad-2025
 :END:
 I am an Assistant Professor, recruiting PhD students to research programming languages theory with me at the University of Regina in Canada. Specific areas of interest include:
 
