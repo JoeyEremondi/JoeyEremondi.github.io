@@ -1,4 +1,4 @@
-#+hugo_base_dir: ~/joey/homepage/
+#+hugo_base_dir: ~/homepage/
 
 * About
 :PROPERTIES:
