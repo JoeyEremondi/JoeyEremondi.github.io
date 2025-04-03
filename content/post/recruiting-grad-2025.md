@@ -1,7 +1,7 @@
 +++
 title = "Recruiting Grad Students"
 author = ["Joey Eremondi"]
-date = 2024-01-02T00:00:00-06:00
+date = 2025-04-02T00:00:00-06:00
 draft = false
 +++
 
