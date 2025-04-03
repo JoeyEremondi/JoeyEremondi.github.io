@@ -7,7 +7,7 @@ draft = false
 
 **Prospective Graduate Students**: I'm currently recruiting new Masters or Doctoral
 students.
-See [this post](/post/recruiting-grad-2024) if you're interested in working on programming languages theory with me.
+See [this post](/post/recruiting-grad-2025) if you're interested in working on programming languages theory with me.
 
 ---
 
