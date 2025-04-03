@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title> - All Posts</title>
+    <link href="https://eremondi.com/post/atom.xml" rel="self" type="application/atom+xml"/>
+    <link href="https://eremondi.com/post/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2025-04-02T00:00:00-06:00</updated>
+    <id>https://eremondi.com/post/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Recruiting Grad Students</title>
+        <published>2025-04-02T00:00:00-06:00</published>
+        <updated>2025-04-02T00:00:00-06:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://eremondi.com/post/recruiting-grad-2025/" type="text/html"/>
+        <id>https://eremondi.com/post/recruiting-grad-2025/</id>
+        
+        <content type="html">&lt;p&gt;I am recruiting applicants for a funded PhD student position in the Theory of Programming Languages at the University of Regina in Regina, Canada. Broadly, I’m looking for anyone who is interested in making dependently typed languages and proof assistants easier to use.&lt;&#x2F;p&gt;
+&lt;p&gt;Specific areas of interest include (but are not limited to):&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Programming with dependently typed languages, like Lean, Agda, Idris, and Coq&lt;&#x2F;li&gt;
+&lt;li&gt;Improving usability of dependently typed programming languages&lt;&#x2F;li&gt;
+&lt;li&gt;Gradual types and gradual dependent types&lt;&#x2F;li&gt;
+&lt;li&gt;Live programming environments for dependent types&lt;&#x2F;li&gt;
+&lt;li&gt;Static analysis of dependently typed programs&lt;&#x2F;li&gt;
+&lt;li&gt;Ordinal notations and termination proofs&lt;&#x2F;li&gt;
+&lt;li&gt;Error messages and repair suggestions for static and dynamic type errors&lt;&#x2F;li&gt;
+&lt;li&gt;Dependent pattern matching - semantics and implementation&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Graduate students at the U of R have the opportunity to be part of a small, focused research group where you can work closely with your advisor. Regina is one of Canada’s most affordable cities to live in, and students have access to Canada’s universal health care. The stipend is roughly $23000-$28000 CAD per year, from a mix of research and teaching-assistantships. Students will have the opportunity to gain experience as a Teaching Assistant or Sessional Lecturer.&lt;&#x2F;p&gt;
+&lt;p&gt;The deadline for applications is June 15, though out-of-cycle applications are possible. The target start date is January of 2026. Earlier start dates are possible, but may be difficult for non-residents of Canada due to visa processing times.&lt;&#x2F;p&gt;
+&lt;p&gt;For more information on applying, visit &lt;a rel=&quot;noopener nofollow noreferrer&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.uregina.ca&#x2F;science&#x2F;cs&#x2F;graduate&#x2F;future-grad&#x2F;index.html&quot;&gt;https:&#x2F;&#x2F;www.uregina.ca&#x2F;science&#x2F;cs&#x2F;graduate&#x2F;future-grad&#x2F;index.html&lt;&#x2F;a&gt;. Any questions for me specifically can be directed to me by &lt;a href=&quot;mailto:jeremondi(atsymbol)uregina.ca&quot;&gt;email&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>VSCode Package for Ott</title>
+        <published>2018-02-02T00:00:00-08:00</published>
+        <updated>2018-02-02T00:00:00-08:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://eremondi.com/post/ott-vscode/" type="text/html"/>
+        <id>https://eremondi.com/post/ott-vscode/</id>
+        
+        <content type="html">&lt;p&gt;I’ve made a package that integrates the
+&lt;a rel=&quot;noopener nofollow noreferrer&quot; target=&quot;_blank&quot; href=&quot;http:&#x2F;&#x2F;www.cl.cam.ac.uk&#x2F;~pes20&#x2F;ott&#x2F;&quot;&gt;Ott Semantic Modelling tool&lt;&#x2F;a&gt; into Visual Studio Code.
+Right now, it supports syntax highlighting, and showing error messages inline,
+but I hope to eventually add support for source formatting, and prettifying symbols.&lt;&#x2F;p&gt;
+&lt;p&gt;You can view the package &lt;a rel=&quot;noopener nofollow noreferrer&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;marketplace.visualstudio.com&#x2F;items?itemName=JoeyEremondi.ott&quot;&gt;here&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;Pull requests, collaboration, suggestions are all welcome!&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>UBC Beamer Theme</title>
+        <published>2017-12-28T00:00:00-06:00</published>
+        <updated>2017-12-28T00:00:00-06:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://eremondi.com/post/ubc-beamer/" type="text/html"/>
+        <id>https://eremondi.com/post/ubc-beamer/</id>
+        
+        <content type="html">&lt;p&gt;I recently had to make a LaTeX slideshow,
+and was disappointed with how awful most of the themes looked.
+I found the Metropolis theme, which was quite nice and modern, and I adapted it to have the UBC colours and logo.&lt;&#x2F;p&gt;
+&lt;p&gt;You can see it live on &lt;a rel=&quot;noopener nofollow noreferrer&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.overleaf.com&#x2F;read&#x2F;zqngzmyspphw&quot;&gt;Overleaf&lt;&#x2F;a&gt;,
+or you can see the code on &lt;a rel=&quot;noopener nofollow noreferrer&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;JoeyEremondi&#x2F;UBC-Metropolis-Beamer&quot;&gt;GitHub&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;Suggestions or Pull requests are welcome!&lt;&#x2F;p&gt;
+&lt;p&gt;If you’re going to a conference, or even making a presentation in a class with lots of formulas, this could come in handy.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>
